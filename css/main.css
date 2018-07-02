@@ -1,3 +1,239 @@
 /*
  * Estilos de tu proyecto
  */
+ body{
+  font-family: 'Montserrat', sans-serif;
+ }
+ .mr-20 {
+    margin-right: 20px;
+
+  }
+ .container {
+    display: table;
+    background-color:#22103a;
+    height: 100px;
+    width: 100%;
+    float: left;
+    color:#feffff;
+    font-weight: 600;
+    padding-left: 162px;
+    justify-content: space-around;
+    padding-right: 140px;
+    align-items: flex-end;
+  }
+  .logo{
+    display: table;
+    background-color:#22103a;
+    float: right;
+  }
+  .logo{
+    display: table;
+    background-color:#22103a;
+    float:left;
+  }
+  input[type=text]{
+    outline: 0;
+    border-width: 0 0 1px; 
+    border-color: #f3f3f3;
+
+  }
+  .container1{
+    display: table;
+    
+  }
+  .hero{
+    display: table;
+    float: left;
+    background-color: #22103a;
+  }
+  .lf-1{
+    display: table;
+    float: left;
+    background-color: white;
+    color:#22103a;;
+  }
+  a:hover {
+    text-decoration: underline;
+   }
+   .gradient {
+    background-image:
+    linear-gradient(#76278F, #2B1E66);
+      
+  }
+   .container2{
+     display: table;
+    background-color: #371f6b;
+    height: 100px;
+    width: 100%;
+    font-weight: 600;
+    padding-left: 162px;
+    justify-content: space-around;
+    padding-right: 140px;
+   }
+   .text{
+     display:table;
+     float: left;
+     color: white;
+     align-content: center;
+   }
+   .img{
+     display: table;
+     float: left;
+     width: 560px;
+     height: 315px;
+   }
+   .container3{
+    display: table;
+   background-color:white;
+   height: 100px;
+   width: 100%;
+   font-weight: 600;
+   padding-left: 162px;
+   justify-content: space-around;
+   padding-right: 140px;
+  }
+  .text2{
+    display:table;
+    float: left;
+    color:black;
+    align-content: center;
+    justify-content: flex-start;
+  }
+  .video1{
+    display:table;
+    float: left;
+  }
+
+ .container4{
+  display: table;
+  background-color:white;
+  height: 100px;
+  width: 100%;
+  font-weight: 600;
+  padding-left: 162px;
+  justify-content: space-around;
+  padding-right: 140px;
+ }
+ .video2{
+   display: table;
+   float:left;
+ }
+ .text3{
+   display: table;
+   float:left;
+   color: black;
+   align-content: center;
+ }
+ .container5{
+  display: table;
+  background-color:white;
+  height: 100px;
+  width: 100%;
+  font-weight: 600;
+  padding-left: 162px;
+  justify-content: space-around;
+  padding-right: 140px;
+ }
+ .video3{
+   display: table;
+   float:left;
+ }
+ .text4{
+   display: table;
+   float:left;
+   color: black;
+   align-content: center;
+ }
+ footer{
+  display: block;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #333447;
+  color: #fff;
+
+
+ }
+ .cont{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  
+ }
+ .mb-4{
+  margin-bottom: 1.5rem !important;
+}
+.mb-lg-0{
+  margin-bottom: 0 !important;
+}
+.mb-5{
+  margin-bottom: 3rem !important;
+}
+.mb-0{
+  margin-bottom: 0 !important;
+}
+ footer:hover{
+  background-color: #1a252f;
+  color:#FF00BF;
+ }
+ .bntDriver{
+   background-color:#FF00BF;
+  border-radius: 40%;
+ }
+ .col-md-4,.col-lg-4{
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content:flex-start;
+  align-content:flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -1px;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+ .logos{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+ }
+ .google{
+  width: 135px;
+  height: 40px;
+ }
+ .apple{
+  width: 135px;
+  height: 40px;
+ }
+ .microsoft{
+  width: 135px;
+  height: 40px;
+ }
+ .copyright {
+  background-color: #1a252f;
+}
+.text-white {
+  color: #fff !important;
+}
+.py-4 {
+  padding-bottom: 1.5rem !important;
+  padding-top: 1.5rem !important;
+}
+.text-center{
+  text-align: center !important;
+}
+.icons{
+  align-items: center;
+}
